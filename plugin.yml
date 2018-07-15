@@ -1,0 +1,14 @@
+author: figboot
+name: MoneyCrate
+version: 1.0
+
+main: net.bigfootslair.MoneyCrate.main.Main
+
+commands:
+  givemoneycrate:
+    description: Give a person a money crate
+    usage: /givemoneycrate <player|*> <tier> <amount>
+
+  givemoneycrateall:
+    description: Give all people a money crate
+    usage: /givemoneycrate <tier> <amount>
